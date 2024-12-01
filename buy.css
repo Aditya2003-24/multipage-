@@ -1,0 +1,193 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+input {
+  display: none;
+}
+
+header ul {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
+header label {
+  color: black;
+  font-size: 30px;
+  display: none;
+}
+header li {
+  list-style: none;
+}
+header a {
+  text-decoration: none;
+  color: black;
+  font-size: small;
+  margin-right: 50px;
+}
+header h1 {
+  color: black;
+  text-align: center;
+  font-size: 50px;
+}
+
+.search {
+  font-size: 30px;
+}
+
+.user {
+  font-size: 30px;
+}
+
+.use {
+  font-size: 30px;
+}
+
+.bot {
+  display: flex;
+}
+.bot img {
+  height: 500px;
+  width: 40%;
+}
+
+.dod img {
+  height: 150px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  margin: 20px;
+}
+
+.jot {
+  display: flex;
+}
+
+.buy a {
+  border: 2px solid black;
+  padding: 10px;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  padding-left: 80px;
+  padding-right: 80px;
+  color: white;
+  background-color: black;
+}
+.buy span {
+  border: 1px solid black;
+  padding: 1px;
+  font-size: smaller;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin: 10px;
+}
+
+.top {
+  border: 2px solid black;
+  width: 20%;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.ern {
+  border: 2px solid black;
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.baj {
+  text-align: center;
+  margin: 50px;
+}
+
+.iot {
+  border: 1px solid black;
+  font-size: 15px;
+  margin: 40px;
+}
+
+.bye {
+  display: flex;
+  gap: 200px;
+  margin: 100px;
+}
+
+.by {
+  width: 320px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  padding-top: 15px;
+}
+.by img {
+  width: 300px;
+  height: 300px;
+}
+.by p {
+  text-align: center;
+  font-size: 15px;
+}
+.by a {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: red;
+}
+
+.footer {
+  background-color: black;
+  padding: 40px;
+  justify-content: center;
+  place-items: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 40px;
+}
+
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.footer ul li h3 {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer ul li {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.footer ul div {
+  display: flex;
+  font-size: 35px;
+}
+
+.footer ul div li a i {
+  font-size: 33px;
+  color: green;
+  margin-right: 13px;
+}/*# sourceMappingURL=buy.css.map */
